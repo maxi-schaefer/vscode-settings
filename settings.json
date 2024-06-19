@@ -1,0 +1,68 @@
+{
+  "workbench.settings.editor": "json",
+
+  // THEME
+  "workbench.colorTheme": "Moxer",
+  "workbench.iconTheme": "moxer-icons",
+
+  // Change Font
+  "editor.fontFamily": "Geist Mono",
+  "editor.codeLensFontFamily": "Geist Mono",
+  "scm.inputFontFamily": "Geist Mono",
+  "chat.editor.fontFamily": "Geist Mono",
+  "debug.console.fontFamily": "Geist Mono",
+
+  // Font size
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
+
+  // UI
+  "editor.minimap.enabled": false,
+  "window.commandCenter": false,
+  "editor.scrollbar.vertical": "auto",
+  "window.titleBarStyle": "custom",
+  "editor.scrollbar.horizontal": "auto",
+
+  // APC
+  "apc.activityBar": {
+      "position": "bottom",
+      "hideSettings": true,
+      "size": 28
+  },
+  "apc.electron": {
+      "titleBarStyle": "hiddenInset",
+      "trafficLightPosition": {
+          "x": 12,
+          "y": 10
+      }
+  },
+  "apc.font.family": "Geist Mono",
+  "apc.monospace.font.family": "Geist Mono",
+  "apc.statusBar": {
+      "position": "editor-bottom",
+      "height": 28,
+      "fontSize": 12
+  },
+
+  // Custom CSS
+  "apc.stylesheet": {
+      ".sidebar > .composite": "height: 12px !important",
+      ".title-label": "display: none !important",
+      ".title-actions": "display: none !important",
+      ".tabs-and-actions-container > .editor-actions": "display: none !important",
+      ".titlebar-center": "display: none !important",
+      ".titlebar-right": "display: none !important",
+      ".inline-tabs-placeholder": "display: none !important"
+  },
+
+  // Misc
+  "workbench.startupEditor": "none",
+  "explorer.compactFolders": false,
+  "editor.tabSize": 2,
+  "editor.linkedEditing": true,
+  "breadcrumbs.filePath": "off",
+  "files.trimTrailingWhitespace": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true
+
+}
